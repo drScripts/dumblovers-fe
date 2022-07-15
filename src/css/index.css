@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sacramento&display=swap');
+
+:root {
+    /*Theme Color */
+    --rose-water: #FF5C8D;
+    --ivory-charm: #FFC0D3;
+    --clay-beige: #FDEFF4;
+    --shadow-wood: #524A4E;
+}
+
+*{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* Universal Styling */
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}

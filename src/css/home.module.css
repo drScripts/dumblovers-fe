@@ -1,0 +1,192 @@
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.leftContainer{
+    flex:30%;
+    background-color: var(--shadow-wood);
+}
+
+.leftContainer .listButton button{
+    width: 50%;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: var(--clay-beige);
+    border-bottom: 0.2rem solid var(--clay-beige);
+}
+
+.leftContainer .userContainer{
+    width: 100%;
+    height:36rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.leftContainer .listButton button:hover{
+    color: var(--shadow-wood);
+    cursor: pointer;
+    background-color: var(--clay-beige);
+}
+
+.rightContainer{
+    flex: 70%;
+    background-color: var(--clay-beige);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Contact Component Styling */
+
+.contactContainer{
+    width: 25rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    gap: 7rem
+}
+
+.contactDetail{
+    position: relative;
+    left: -6rem
+}
+
+.contactImage{
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.contactImage img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.contactButton{
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+.contactButton .mailIcon{
+    color: var(--shadow-wood);
+    font-size: 1.4rem;
+}
+
+.contactButton .whatsappIcon{
+    color: var(--shadow-wood);
+    font-size: 1.5rem;
+}
+
+/* Card Component Styling */
+
+.cardContainer{
+    animation: LtR 1s;
+    overflow: hidden;
+}
+
+.cardContainer .cardImg{
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+    background-color: red;
+}
+
+.cardContainer .cardImg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardContainer .cardName{
+    border: 0.2rem solid var(--shadow-wood);
+    padding: 0rem 1rem;
+}
+
+.cardContainer .cardName p{
+    font-size: 1rem;
+}
+
+.cardContainer .cardButton{
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.cardContainer .cardButton button{
+    width: 50%;
+    border: 0.2rem solid var(--shadow-wood);
+    padding: 0.5rem
+}
+
+.cardContainerAfter{
+    animation: MtR 1s linear;
+}
+
+.cardContainerAfter .cardImg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.cardContainerAfter .cardName{
+    border: 0.2rem solid var(--shadow-wood);
+    padding: 0rem 1rem;
+}
+
+.cardContainerAfter .cardName p{
+    font-size: 1rem;
+}
+
+.cardContainerAfter .cardButton{
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.cardContainerAfter .cardButton button{
+    width: 50%;
+    border: 0.2rem solid var(--shadow-wood);
+    padding: 0.5rem
+}
+
+.fax{
+    color: red;
+}
+
+.fax:hover{
+    cursor: pointer;
+    border: 0.2rem solid red !important; 
+}
+
+.fac{
+    color: green;
+}
+
+.fac:hover{
+    cursor: pointer;
+    border: 0.2rem solid green !important;
+}
+
+.cardContainer .cardButton button #fax:hover{
+    cursor: pointer;
+
+}
+
+/* Animations */
+
+@keyframes LtR {
+    0%{width: 0rem; height: 0rem}
+    100%{width: 25rem; height:32rem}
+}
+
+@keyframes MtR {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}

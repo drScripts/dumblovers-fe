@@ -91,15 +91,13 @@
 /* Card Component Styling */
 
 .cardContainer{
-    animation: LtR 1s;
-    overflow: hidden;
+    animation: fade-in 0.5s;
 }
 
 .cardContainer .cardImg{
     width: 25rem;
     height: 25rem;
     overflow: hidden;
-    background-color: red;
 }
 
 .cardContainer .cardImg img{
@@ -127,35 +125,6 @@
     padding: 0.5rem
 }
 
-.cardContainerAfter{
-    animation: MtR 1s linear;
-}
-
-.cardContainerAfter .cardImg img{
-    width: 100%;
-    object-fit: cover;
-}
-
-.cardContainerAfter .cardName{
-    border: 0.2rem solid var(--shadow-wood);
-    padding: 0rem 1rem;
-}
-
-.cardContainerAfter .cardName p{
-    font-size: 1rem;
-}
-
-.cardContainerAfter .cardButton{
-    width: 100%;
-    margin-top: 0.2rem;
-}
-
-.cardContainerAfter .cardButton button{
-    width: 50%;
-    border: 0.2rem solid var(--shadow-wood);
-    padding: 0.5rem
-}
-
 .fax{
     color: red;
 }
@@ -174,19 +143,9 @@
     border: 0.2rem solid green !important;
 }
 
-.cardContainer .cardButton button #fax:hover{
-    cursor: pointer;
-
-}
-
 /* Animations */
 
-@keyframes LtR {
-    0%{width: 0rem; height: 0rem}
-    100%{width: 25rem; height:32rem}
-}
-
-@keyframes MtR {
-    0%{opacity: 1;}
-    100%{opacity: 0;}
+@keyframes fade-in {
+    0%{opacity: 0;}
+    100%{opacity: 1}
 }

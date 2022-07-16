@@ -10,9 +10,7 @@ export default function Card() {
 
   return (
     <>
-      <div
-        className={checked ? styles.cardContainerAfter : styles.cardContainer}
-      >
+      <div className={styles.cardContainer}>
         <div className={styles.cardImg}>
           <img src={blankPfp} alt="Profile Picture" />
         </div>

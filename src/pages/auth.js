@@ -8,6 +8,9 @@ export default function Auth() {
   const [login, setLogin] = useState(true);
   const [register, setRegister] = useState(false);
 
+  const title = 'Welcome';
+  document.title = 'DumbLovers | ' + title;
+
   return (
     <>
       <div className={styles.authContainer}>

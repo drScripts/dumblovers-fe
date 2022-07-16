@@ -119,22 +119,23 @@
 .registCard input{
     width: 19rem;
     padding: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border-radius: 0.5rem;
-    border: none;
+    border: 0.2rem solid var(--shadow-wood);
 }
 
 .registCard select{
-    width: 20rem;
+    width: 20.4rem;
     padding: 0.5rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
     border: none;
     background-color: white;
+    border: 0.2rem solid var(--shadow-wood);
 }
 
 .registCard form button{
-    width: 100%;
+    width: 20.4rem;
     padding: 0.5rem;
     background-color: var(--clay-beige);
     border: 0.2rem solid var(--shadow-wood);

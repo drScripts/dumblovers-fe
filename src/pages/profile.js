@@ -4,6 +4,10 @@ import Navbar from "../components/navbar/navbar";
 import blankPfp from "../assets/images/blank-profile.png";
 
 export default function Profile() {
+
+  const title = 'Profile';
+  document.title = 'DumbLovers | ' + title;
+
   return (
     <>
       <Navbar />

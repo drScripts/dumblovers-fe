@@ -2,6 +2,10 @@ import React from "react";
 import styles from "../../css/auth.module.css";
 
 export default function Login({ setRegister, setLogin }) {
+
+  const title = 'Login';
+  document.title = 'DumbLovers | ' + title;
+
   return (
     <>
       <div className={styles.loginCard}>

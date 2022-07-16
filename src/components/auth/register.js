@@ -6,6 +6,9 @@ import { useState, useEffect } from "react";
 export default function Register({ setLogin, setRegister }) {
   const [preview, setPreview] = useState(null);
 
+  const title = 'Register';
+  document.title = 'DumbLovers | ' + title;
+
   const [form, setForm] = useState({
     pfp: "",
     username: "",

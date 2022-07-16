@@ -53,22 +53,25 @@
     display: flex;
     align-items: center;
     background-color: white;
-    gap: 7rem
+    gap: 5rem
 }
 
 .contactDetail{
     position: relative;
-    left: -6rem
+    left: -4rem
+}
+
+.contactDetail p{
+    font-size: 1rem;
 }
 
 .contactImage{
-    width: 4rem;
-    height: 4rem;
-    overflow: hidden;
+    width: 5rem;
+    height: 5rem;
 }
 
 .contactImage img{
-    width: 100%;
+    width: 5rem;
     object-fit: cover;
 }
 

@@ -5,6 +5,10 @@ import Contact from "../components/contact/contact";
 import Card from "../components/card/card";
 
 export default function Home() {
+
+  const title = 'Home';
+  document.title = 'DumbLovers | ' + title;
+
   return (
     <div>
       <Navbar />

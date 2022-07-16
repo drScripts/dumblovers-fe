@@ -11,8 +11,9 @@ export default function Navbar() {
           <p>DumbLovers</p>
         </div>
         <div className={styles.navRight}>
-          <a href="/">Home</a>
-          <a href="/profile">Profile</a>
+          <Link to="/">Home</Link>
+          <Link to="/profile">Profile</Link>
+          <Link to="#">Logout</Link>
           <img src={blankPfp} alt="Profile Picture" />
         </div>
       </div>
